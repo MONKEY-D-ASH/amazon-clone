@@ -1,0 +1,497 @@
+*{
+    /* padding: 0px; */
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* the broder will be included inside the height and width of the div tag or any other tag. it won't take any extra space */
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* align-content: space-evenly; */
+}
+
+/* common sytling for the boxes */
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.third_box:hover{
+    background-color: #ff9900;
+}
+
+/* styling for box 1 */
+
+.nav_logo{
+    margin-left: 15px;
+}
+
+.logo{
+    width: 98px;
+    height: 40px;
+    margin: 5px 10px 5px 10px;
+    background-image: url("amazon_logo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* styling for box 2 */
+
+.nav_address{
+    width: 80px;
+    height: 40px;
+    padding-top: 5px;
+    padding-right: 1.5px;
+    margin-right: 4px;
+    border-radius: 2px;
+    margin-left: 5px;
+
+}
+
+.main_address{
+    display: flex;
+}
+
+.icon{
+    padding-right: 4px;
+    padding-left: 6px;
+}
+
+#address_indication{
+    font-size: 0.7rem;
+    padding-left: 21.5px;
+    color: #CCCCCC;
+}
+#font_bold{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/* styling for box 3  */
+.third_box{
+    width:850px;
+    height: 48px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.nav_search{
+    width: 840px;
+    height: 40px;
+    display: flex;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+#search_select{
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e6e6e6;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+#search_area{
+    width: 741px;
+    height: 38px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    outline: none;
+}
+
+#icon_div{
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #edad4b;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#main_icon{
+    font-size: 1.3rem;
+    color: black;
+}
+
+/* styling for the fourth box */
+.fourth_box{
+    width: 60px;
+    height: 30px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+}
+
+#box_4_logo{
+    width: 20px;
+    height: 15px;
+    background-image:url("american_flag_fontend_project.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#box_4_search_select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* styling for box 5 */
+.box_5{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding-left: 8px;
+}
+
+#box_5_wording{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+#inner_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box_5_search_select{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#box_5_dropdown{
+    height: 10px;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    border: none;
+}
+
+/* styling for box 6 */
+.box_6{
+    width: 70px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+#first_word{
+    font-size: 0.7rem;
+    margin-left: 1px;
+    font-weight: 400;
+}
+
+#following_words{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* styling for box 7 */
+.box_7{
+    width: 70px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    border-radius: 2px;
+}
+
+#box7_logo{
+    margin-top: 12px;
+    font-size: 2rem;
+}
+
+#box7_wording{
+    height: fit-content;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 25px;
+    
+}
+
+/* styling for panel components */
+.panel{
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+}
+
+.component1{
+    width: 59px;
+    height: 39px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#component1_wording{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.options{
+    display: flex;
+    color: white;
+    align-self: center;
+    font-size: 0.89rem;
+}
+.options_outer_div{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    margin-right: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+/* styling for hero section */
+
+.hero_section{
+    width: 1500px;
+    height: 600px;
+    margin-left: 10px;
+    background-image:url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_section_2{
+    width: 1500px;
+    height: 600px;
+    margin-left: 10px;
+    background-image:url("hero_image2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.floating_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1460px;
+    height: 40px;
+    font-size: 0.89rem;
+    background-color: #f5f6f6;
+    margin-top: 250px;
+}
+
+/* styling for shop section */
+
+.default{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    position: absolute;
+    top: 409px;
+    
+}
+
+.section1{
+    left: 30px;
+}
+
+.section2{
+    left: 400px;
+}
+
+.section3{
+    left: 770px;
+}
+
+.section4{
+    left: 1140px;
+}
+.shop_section_image_4{
+    width: 310px;
+    height: 275px;
+    background-image: url("coffee_maker.jpg");
+    background-size: cover;
+    position: relative;
+    top: 26px;
+    left: 20px;
+}
+
+.default2{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    position: absolute;
+    top: 869px;
+}
+
+.section5{
+    left: 30px;
+}
+
+.section6{
+    left: 400px;
+}
+
+.section7{
+    left: 770px;
+}
+
+.section8{
+    left: 1140px;
+}
+.shop_section_image_8{
+    width: 310px;
+    height: 275px;
+    background-image: url("coffee_maker.jpg");
+    background-size: cover;
+    position: relative;
+    top: 26px;
+    left: 20px;
+}
+
+
+.shop_section_description{
+    font-size: 21px;
+    font-weight: 700;
+    padding-left: 20px;
+    position: relative;
+    top: 22px;
+    margin-bottom: 10px;
+}
+
+.shop_section_image{
+    width: 310px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    top: 26px;
+    left: 20px;
+}
+
+.shop_section_link{
+    font-size: 0.8rem;
+    position: absolute;
+    left: 20px;
+    bottom:20px;
+    text-decoration: none;
+}
+
+/* styling for footer */
+
+footer{
+  margin-top: 10px;   
+}
+
+.foot_panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.foot_panel2{
+    background-color:#232F3E ;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul p{
+    font-weight: 700;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot_panel3{
+    height: 100px;
+    background-color:#232F3E ;
+    border-top: 0.5px solid #DDD;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_logo{
+    width: 98px;
+    height: 40px;
+    background-image: url("amazon_logo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.foot_panel4{
+    height: 77px;
+    background-color: #131A22;
+    color: #DDD;
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.foot_pages{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
